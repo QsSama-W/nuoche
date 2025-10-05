@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFangSC-Regular", "Microsoft YaHei", "微软雅黑", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 15px;
+    background: #f7f9fc;
+    padding-bottom: 30px;
+}
+
+.f-dn {
+    display: none;
+}
+
+.f-margin-top-5 {
+    margin-top: 5px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 35px;
+    color: #2d3748;
+}
+
+.title-info {
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    color: #6b7280;
+}
+
+.plate-number {
+    display: inline-block;
+    margin: 15px auto;
+    padding: 6px 16px;
+    background: #4299e1;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.qrcode-body, .sms-body {
+    margin-top: 20px;
+    border: 1px solid #e2e8f0;
+    background: #fff;
+    padding: 25px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+.qrcode-body .step1 .step-title {
+    color: #656565;
+    margin-top: 0;
+}
+
+.step-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #3182ce;
+    padding-left: 8px;
+    border-left: 2px solid #3182ce;
+}
+
+.step:first-child .step-title {
+    margin-top: 0;
+}
+
+.qrcode-body .step p,
+.sms-body .step p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #4a5568;
+}
+
+.qrcode-footer {
+    color: #656565;
+    font-size: 14px;
+    margin-top: 18px;
+    text-align: center;
+    line-height: 2;
+}
+
+.qrcode-footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* 按钮样式 */
+.btn {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #3182ce;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #2b6cb0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(49, 130, 206, 0.15);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #3182ce;
+    border: 1px solid #3182ce;
+}
+
+.btn-outline:hover {
+    background-color: #ebf8ff;
+    transform: translateY(-2px);
+}
+
+.sms-body {
+    margin-top: 35px;
+}
+
+.sms-body .step-body {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background: #fff;
+    margin: 8px 0;
+}
+
+.sms-body .step-info {
+    color: #656565;
+    margin-bottom: 32px;
+}
+
+.sms-body .step-body p {
+    height: 42px;
+    line-height: 42px;
+    padding-left: 25px;
+}
+
+.sms-body .step-body p span {
+    font-weight: 600;
+    color: #3182ce;
+}
+
+.sms-body .step-body p:first-child {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.sms-body .step2 .step-body {
+    padding: 15px;
+    line-height: 25px;
+}
+
+.footer-actions {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.back-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* 复制按钮额外样式 */
+.copy-btn {
+    margin-left: 10px;
+    padding: 0 12px;
+    height: 32px;
+    font-size: 14px;
+}

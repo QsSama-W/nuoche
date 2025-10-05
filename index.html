@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>挪个车</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+</head>
+<body>
+    <div class="qrcode">
+        <div class="title bold">临时停靠，请多关照</div>
+        <div align="center">
+            <span class="plate-number" id="plateNumber"></span>
+        </div>
+        <div class="qrcode-body">
+            <div class="step step2">
+                <div class="step-title bold">使用说明</div>
+                <p>手机号码自动填充，无需手动输入，只需点击呼叫即可</p><br>
+                <p>电话费用由运营商收取</p>
+            </div>
+        </div>
+        <div class="qrcode-footer">
+            <div>没有跳转到呼叫界面？<a href="javascript:location.reload();" class="btn btn-outline">点击重试</a></div>
+            <div class="f-margin-top-5">可尝试再次扫码或<a href="javascript:;" class="btn btn-outline j-manaul">手动拨号</a></div>
+        </div>
+        <div class="footer-actions">
+            <div>电话没回应？发个短信试试：<a href="javascript:;" class="btn btn-primary" id="smsBtn">点击发送</a></div>
+        </div>
+    </div>
+    
+    <div class="sms f-dn">
+        <div class="title bold">临时停靠，请多关照</div>
+        <div class="title-info">手动拨号说明</div>
+        <div class="sms-body">
+<div class="step step1">
+<div class="step-title bold">第一步：输入号码</div>
+<div class="step-body">
+    <p>
+        输入号码：<span id="manualPhone"></span>
+        <button class="btn btn-outline copy-btn" onclick="copyPhoneNumber()">
+            复制号码
+        </button>
+    </p>
+</div>
+<div class="step-info">通话费用由运营商收取</div>
+</div>
+            <div class="step step2">
+                <div class="step-title bold">第二步：点击呼叫</div>
+                <div class="step-body">
+                    呼叫完成后，请耐心等待，车主正在速速赶往
+                </div>
+            </div>   
+        </div>
+        <div class="back-btn">
+            <a href="javascript:;" class="btn btn-outline j-qrcode">返回</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="static/js/jquery-1.8.1.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
+    
