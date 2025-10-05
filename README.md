@@ -11,3 +11,7 @@
 }
 ```
 >2、打包下载本项目上传到网站即可使用
+
+# 效果展示
+<img src="https://github.com/QsSama-W/nuoche/blob/main/Screenshot_2025-10-05-11-19-06-841_mark.via.jpg" style="zoom:30%;" />
+<img src="https://github.com/QsSama-W/nuoche/blob/main/Screenshot_2025-10-05-11-19-11-066_mark.via.jpg" style="zoom:30%;" />
